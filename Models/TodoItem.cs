@@ -14,5 +14,5 @@ public class TodoItem
     [DataType(DataType.DateTime)]
     public DateTime Deadline { get; set; } = DateTime.Now.AddDays(1);
 
-    public string? FilePath { get; set; } // مسار الملف
+    public string? FilePath { get; set; }
 }
